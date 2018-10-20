@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+div, span, input, output, a, p, {
+	box-sizing: border-box;
+}
+
+
+.menu {
+	height: 199px;
+	background: #ff4500;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.logo {
+	margin-left: 27px;
+}
+
+.social {
+	transition: all 0.3s ease;
+	text-decoration: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-right: 3px;
+}
+
+.social img {
+	margin-right: 18.7px;
+}
+
+.social a:hover {
+	opacity: 0.8;
+}
+
+.hello {
+	margin-left: 387px;
+	margin-top: 142px;
+	width: 412px;
+	height: 598px;
+	background: #ff4500;
+	position: relative;
+}
+
+.header__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hello h2 {
+	padding: 72px;
+}
+
+h2 {
+	font-weight: 500;
+	width: 278px;
+	line-height: 1.34em;
+	font-size: 28px;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+
+.works {
+	margin-right: 386px;
+	margin-top: 142px;
+	width: 609px;
+	height: 598px;
+	background: #ff4500;
+	padding-left: 29px;
+	position: relative;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 26px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+h3 img {
+	margin-right: 14px;
+}
